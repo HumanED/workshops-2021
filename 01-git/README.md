@@ -31,19 +31,19 @@ You can read more about the commands available in git here: [Commands of Git](ht
 ## Exercises
 We will be working on two exercises.
 ### Exercises 1
-  1. clone this repository
+  1. Clone this repository
   2. Create a branch with name your-name-git-workshop
   3. Inside the 01-git folder create a txt file named your-name-fun-facts that contains 3 fun (or not) facts about you
-  4. commit the changes (give a meaningful message)
-  5. push and create a pull request (give a good description!)
+  4. Commit the changes (give a meaningful message)
+  5. Push and create a pull request (give a good description!)
   6. While waiting for it to be reviewed try reviewing other pull requests and give comments
   7. Once that it has been approved twice you will be able to merge it, do it :)
   8. You have completed the first exercise
- ### Exercises 1
-  1. pull changes as some pull requests might have gone through and now you have an outdated version
+ ### Exercises 2
+  1. Pull changes as some pull requests might have gone through and now you have an outdated version
   2. Create (if it is still not there yet) or edit (if it already exists) the textfile (.txt) my_fav_book.txt
   3. Add to the file the name of your favourite book
-  4. commit, push 
+  4. Commit, push 
   5. Try making the pull request
   6. You should start getting conflicts (if you are not the first)
   7. Solve those conflicts
