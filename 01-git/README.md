@@ -48,3 +48,5 @@ We will be working on two exercises.
   6. You should start getting conflicts (if you are not the first)
   7. Solve those conflicts
   8. Ready to merge? do it! :)
+  ## Conclusion
+  Git is awesome, and so it's github so feel free to investigate on your own some of the features that githubs has to offer. We could not cover everything in this tutorial, what we have seen are just the fundamentals of git/github, other features as badges or continuous integration (through travis or Github Actions)are really interesting and useful for the projects that we are going to be working on so I recommend that you search some more information about them.
