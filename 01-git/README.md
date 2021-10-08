@@ -23,5 +23,28 @@ These commands define the workflow of git
   1. branch: tells you in which branch you are working
   2. branch name_of_new_branch: creates a new branch of with the given name
   3. branch checkout name: moves you from the branch that you are in into the branch with the given name
- 
-
+  
+ Note that if you create a branch this will not appear in remote repository until you make your first commit. In general branches are used to avoid clashes and weird errors in git, you will encounter those in the exercises.
+You can read more about the commands available in git here: [Commands of Git](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
+## Pull Requests
+  Once that you are ready to merge the changes of your branch into the main branch or any other you can start a Pull request, this is done directly in the remote repository (using Github  web interface). The Pull Request will tell you if the changes made by your branch can be merged or if there is any conflict between the two versions that doesn't allow the merging. The Pull request also allows for people to review your changes and to comment on them. You can even set up the repository so that it only allows you to merge after some amount of people have approved the pull request (this is good practice to avoid mistakes and breaking the code). for more about pull requests on github please read [this](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+## Exercises
+We will be working on two exercises.
+### Exercises 1
+  1. clone this repository
+  2. Create a branch with name your-name-git-workshop
+  3. Inside the 01-git folder create a txt file named your-name-fun-facts that contains 3 fun (or not) facts about you
+  4. commit the changes (give a meaningful message)
+  5. push and create a pull request (give a good description!)
+  6. While waiting for it to be reviewed try reviewing other pull requests and give comments
+  7. Once that it has been approved twice you will be able to merge it, do it :)
+  8. You have completed the first exercise
+ ### Exercises 1
+  1. pull changes as some pull requests might have gone through and now you have an outdated version
+  2. Create (if it is still not there yet) or edit (if it already exists) the textfile (.txt) my_fav_book.txt
+  3. Add to the file the name of your favourite book
+  4. commit, push 
+  5. Try making the pull request
+  6. You should start getting conflicts (if you are not the first)
+  7. Solve those conflicts
+  8. Ready to merge? do it! :)
