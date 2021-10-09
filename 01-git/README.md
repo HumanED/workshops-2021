@@ -40,13 +40,12 @@ We will be working on two exercises.
   7. Once that it has been approved twice you will be able to merge it, do it :)
   8. You have completed the first exercise
  ### Exercises 2
-  1. Pull changes as some pull requests might have gone through and now you have an outdated version
-  2. Create (if it is still not there yet) or edit (if it already exists) the textfile (.txt) my_fav_book.txt
-  3. Add to the file the name of your favourite book
-  4. Commit, push 
-  5. Try making the pull request
-  6. You should start getting conflicts (if you are not the first)
-  7. Solve those conflicts
-  8. Ready to merge? do it! :)
+  1. Create (if it is still not there yet) or edit (if it already exists) the textfile (.txt) my_fav_book.txt
+  2. Add to the file the name of your favourite book
+  3. Commit, push 
+  4. Try making the pull request
+  5. You should start getting conflicts (if you are not the first)
+  6. Solve those conflicts
+  7. Ready to merge? do it! :)
   ## Conclusion
   Git is awesome, and so it's github so feel free to investigate on your own some of the features that githubs has to offer. We could not cover everything in this tutorial, what we have seen are just the fundamentals of git/github, other features as badges or continuous integration (through travis or Github Actions)are really interesting and useful for the projects that we are going to be working on so I recommend that you search some more information about them.
