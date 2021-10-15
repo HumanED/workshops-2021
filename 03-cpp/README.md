@@ -54,7 +54,28 @@ In cpp there are several ways of writting comments:
    * span multiple lines
 */
 ```
-### 5 Loops
+### 5 Conditional Statements
+Conditional Statements in C++ are similar to the ones we have seen in python:
+```cpp
+if(condition){
+    code_here;
+}
+else{
+    code_here_too;
+}
+```
+If condition is met then code_here will be executed (and code_here_too not) and if the condition is not met then code_here_too (and not code_here) will be executed.
+Nested conditionals are made with the ```else if``` 
+```cpp
+if(condition){
+    code_here;
+}
+else if (condition_two){
+    code_here_too;
+}
+else {
+```
+### 6 Loops
 In this case we only care about while loops and for loops (the same as in python):
 ```cpp
 // for loop execution
