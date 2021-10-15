@@ -67,14 +67,27 @@ else{
 If condition is met then code_here will be executed (and code_here_too not) and if the condition is not met then code_here_too (and not code_here) will be executed.
 Nested conditionals are made with the ```else if``` 
 ```cpp
-if(condition){
+if (condition){
     code_here;
 }
 else if (condition_two){
     code_here_too;
 }
 else {
+    code_else
+}
 ```
+Then code here too will only evaluate if condition one is not met and confition two is met. Code else will only be evaluated if non of the two conditions are true. You should willbe able the nestes conditionals from:
+```cpp
+if (condition){
+    code_here;
+}
+if (condition_two){
+    code_here_too;
+}
+```
+In this case each if statement is indepenent of the other, meaning that if condition one and two can be both true then both code_here and code_here_two will be executed.
+
 ### 6 Loops
 In this case we only care about while loops and for loops (the same as in python):
 ```cpp
