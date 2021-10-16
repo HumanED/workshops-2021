@@ -1,4 +1,7 @@
 # C++ Workshop
+## Installation Guide
+For C++ recommend Visual Studio and g++ as a compiler, you have a guide of how to set them up here:
+[guide](https://code.visualstudio.com/docs/languages/cpp)
 ## The `main` function
 Before you can compile anything you need a program written in C, any wuch program haw a file with a `main` function/
 This is the entry point of program, this is the thing that gets called when a program is started.
