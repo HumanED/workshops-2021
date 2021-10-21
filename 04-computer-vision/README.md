@@ -1,6 +1,6 @@
-## Welcome to the Computer Vision workshop!
+# Welcome to the Computer Vision workshop!
 
-# Tools to get started
+## Tools to get started
 
 1. Download Python from https://www.python.org/downloads/
 2. Install matplotlib by running in the command line: `pip install matplotlib`
